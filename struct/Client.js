@@ -46,7 +46,3 @@ fs.readdir("./events/", (err, files) => {
     client.on(eventide, (...args) => eventor.run(client, ...args))
   })
 })
-
-async function Handler() {
-
-}
